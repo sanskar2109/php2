@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #formpage{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: aquamarine;
+            height:500px;
+            width:700px;
+            border-radius: 20px;
+
+
+        }
+        body{
+            background-color: chocolate;
+        }
+        #main{
+            display: flex;
+            justify-content: center;
+            align-self: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+<div id= "main"> <div id ="formpage"><form action="database.php" method="post">
+    <tr>
+        <h1>Registration Page</h1>
+    </tr>
+    <table>
+
+        <tr>
+            <td>
+                <label> Enter your Name</label>
+            </td>
+            <td>
+                <input type="text" name="uname" id="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label> Enter your E-mail</label>
+            </td>
+            <td>
+                <input type="email" name="email" id="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label> Enter your password</label>
+            </td>
+            <td>
+                <input type="password" name="password" id="">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="submit" value="save" name="save">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="submit" value="display" name = "display">
+            </td>
+        </tr>
+    </table>
+</form></div></div>
+</body>
+</html>
